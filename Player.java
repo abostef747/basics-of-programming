@@ -27,5 +27,9 @@ public class Player {
         rand.nextInt(10);
         return 10;
     }
+
+    public void getPlayerPoints(){
+        System.out.println("Your points reached: ");
+    }
     
 }

@@ -33,5 +33,11 @@ public class SecondJava{
         System.out.println("Player 2");
         player2.getPlayer();
 
+        System.out.println("player 1 roll the dice, (Y / N) ");
+        char rollDiceAnswer = scanner.nextLine().charAt(0);
+        if (rollDiceAnswer == 'Y') {
+            player1.RollDice();
+        }
+        
     }
 }
