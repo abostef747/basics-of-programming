@@ -1,0 +1,4 @@
+{
+    "docker.commands.run": "${containerCommand} run --rm -d ${exposedPorts} ${tag}",
+    "terminal.integrated.fontSize": 25
+}
